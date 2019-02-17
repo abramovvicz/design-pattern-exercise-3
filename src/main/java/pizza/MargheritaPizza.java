@@ -5,8 +5,8 @@ import java.util.List;
 public class MargheritaPizza extends Pizza {
 
 
-    public MargheritaPizza(String pizzaName) {
-        super(pizzaName, PizzaType.MARGHERITA);
+    public MargheritaPizza(double cost, List<String> components) {
+        super(cost, components, PizzaType.HAWAI);
     }
 
 
